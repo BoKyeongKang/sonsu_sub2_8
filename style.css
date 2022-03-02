@@ -1,0 +1,79 @@
+@font-face {font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;}
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #131315;}
+body{font-weight: 400; font-style: normal; font-size: 14px; line-height: 22px; color: #131315;
+  font-family: 'Pretendard-Regular';}
+
+/* 헤더 */
+header{background-color: #fbfeff;position: relative; }
+.header_inner{width: 1200px; height: 122px; margin: auto;  }
+.header_inner h1{float: left; padding: 50px 0 0; display: block; }
+.nav li a:hover{color: #2764b0;}
+.nav> li{float: left; font-weight: bold;  padding: 50px 43px 0;}
+
+li a{display: block; padding-bottom: 20px; }
+.nav{float: right; }
+.sub{background-color: rgba(0, 172, 236, 0.7); position: absolute; width: 100%; left: 0; 
+padding: 10px 0; z-index: 99; }
+.sub div{width: 1200px; margin: auto;  }
+.mg{width: 135.52px;  margin-left: 593px; text-align: center; }
+.mg li a:hover{color: #2764b0;}
+.sub ul{float: left; width:131px; text-align: center; }
+.sub ul li{padding: 15px 0; }
+.sub a{color: #fbfeff ; }
+
+.sub{display: none;/*서브메뉴 안보이게 만들기*/ }
+.nav li:hover .sub{display: block;/*서브메뉴 보이게 만들기*/ } 
+
+.secondnav{background-color: #00aeef;}
+.secondul li a:hover{text-decoration: underline;}
+.secondnavinner{margin: auto; height: 50px; margin-bottom: 60px; width: 1200px;}
+.secondnavinner ul{float: right; padding-right: 43px;}
+.secondnavinner li{float: left; color: #fbfeff; padding-left: 30px; padding-top: 15px; }
+.secondnavinner li a{color: #fbfeff; font-size: 14px;}
+.secondnav .secondli a{color: #00237b; font-weight: 900;} /*파랑 메뉴*/ 
+
+
+
+h2{color: #00aeef ;  font-size: 25px; font-weight: 600; padding-bottom: 25px;}
+h3{font-size: 20px; color: #585858 ; padding-bottom: 30px;}
+
+.total{width: 1200px; margin: auto;}
+.left33{float: left; width: 600px; height: 600px;}
+.right33{float: right; width: 550px; border-left: #cccccb 1px solid ; padding-left: 20px; height: 600px;}
+
+table{border-top: #131315 2px solid; border-collapse: collapse;}
+th, td{border-bottom: 1px solid #ccc; padding: 20px; text-align: left;font-weight: normal; }
+.coast{font-size: 25px; padding: 20px 10px; border: #131315 1px solid; margin: 10px 0;}  
+select{width: 100%; padding: 10px; border: 1px #cccccb solid;}
+span{color: #979797 ;}
+
+.btn{margin-top: 13px;}
+input[type="submit"]{border: 0; background-color: #00aeef; color: #fff; padding: 20px 20px; width: 50%; float: left;}
+input[type="button"]{border: 0; background-color: #585858; color: #fff; padding: 20px 20px; width: 50%;float: right;}
+.lastimg{margin:auto; padding-top: 100px; width: 874px; height: 3080px; clear: both; padding-bottom: 200px;}
+
+/*푸터*/
+footer{background-image:url(images/footer.png); height: 361px; margin: auto; position: relative;} 
+.footer_inner{width: 1200px;  margin: auto; padding-top: 120px;}
+.footer_inner p{color: #fbfeff; line-height: 30px; clear: both; }
+.footer_inner span{color: rgba(251, 254, 255, 0.4);}
+
+.left{float: left; }
+.right{float: right; }
+.right li{float: left;  padding: 0 20px 5px 0; opacity: 0.7 ; display: block; }
+.right li:hover{opacity:1}
+
+
+.second{clear: both;}
+.second li{float: left; color: #fbfeff; padding: 0 20px 5px 0;}
+.second li a:hover{color: #00aeef ;}
+.second a{font-weight: 700; color: #fbfeff;}
+
+
+.top{position:fixed; bottom:50px; right:50px;  display:none;}/* icon 꾸미기 */
